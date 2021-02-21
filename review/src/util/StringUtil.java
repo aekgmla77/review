@@ -11,20 +11,20 @@ public class StringUtil {
 	public static String toStr(int s) {
 		return Integer.toString(s);
 	}
-	//3. String -> 확장자(String) : LastindexOf, substr
+	//3. String -> �솗�옣�옄(String) : LastindexOf, substr
 	public static String getExt(String s) {
 		String result = "";
 		result = s.substring(s.lastIndexOf(".") + 1);
 		return result;
 	}
 	/**
-	 * 파일명에서 확장자를 추출
+	 * �뙆�씪紐낆뿉�꽌 �솗�옣�옄瑜� 異붿텧
 	 * @param pathname
-	 * 		파일명 p01.jpg (파일만 추출)
-	 * 	    경로명 c:/img/item/p01.jpg(경로만 추출)
-	 * @return 확장자 
+	 * 		�뙆�씪紐� p01.jpg (�뙆�씪留� 異붿텧)
+	 * 	    寃쎈줈紐� c:/img/item/p01.jpg(寃쎈줈留� 異붿텧)
+	 * @return �솗�옣�옄 
 	 */
-	//4. String -> path, 파일명
+	//4. String -> path, �뙆�씪紐�
 	public static String getFilename(String file) {
 		String result = "";
 		int ff = file.lastIndexOf(".");
@@ -35,7 +35,7 @@ public class StringUtil {
 	public static String getPath(String path) {
 		String result = "";
 		int last = path.lastIndexOf("/");
-		path.substring(last + 1);
+		result = path.substring(0, last + 1);
 		return result;
 	}
 }

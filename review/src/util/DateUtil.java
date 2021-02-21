@@ -1,7 +1,9 @@
 package util;
 
+import java.text.DateFormat;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
+import java.time.LocalDate;
 import java.util.Date;
 
 public class DateUtil {
@@ -33,7 +35,7 @@ public class DateUtil {
 	}
 	
 	/**
-	 * Date를 주어진 포맷대로 스트링으로 변환
+	 * Date瑜� 二쇱뼱吏� �룷留룸�濡� �뒪�듃留곸쑝濡� 蹂��솚
 	 * @param date
 	 * @param s
 	 * @return
@@ -46,8 +48,10 @@ public class DateUtil {
 		return result;
 	}
 	
-	public static Date addDay(Date today, int i) {
-		String result = null;
-		return null;
-	}
+//	public static Date addDay(Date today, int i) {
+//		String result = null;
+//		SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd");
+//		result = dateFormat.format(today) + i;
+//		return result;
+//	}
 }

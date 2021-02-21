@@ -2,7 +2,7 @@ package jdbc;
 
 import lombok.Data;
 
-@Data   //ì´ê±° í•˜ë‚˜ í•˜ë©´ get, set, to string ë“± ë‹¤ ë‚˜ì˜´
+@Data   //ÀÌ°Å ÇÏ³ª ÇÏ¸é get, set, to string µî ´Ù ³ª¿È
 public class EmpVO {
 	private String employee_id;
 	private String first_name;

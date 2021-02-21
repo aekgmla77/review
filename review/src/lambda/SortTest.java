@@ -8,10 +8,10 @@ import util.Emp;
 public class SortTest {
 	public static void main(String[] args) {
 		ArrayList<Emp> emplist = new ArrayList<>();
-		emplist.add(new Emp(1, "í™ê¸¸ë™", "ì¸ì‚¬"));
-		emplist.add(new Emp(2, "ê¹€ê¸¸ë™", "IT"));
-		emplist.add(new Emp(3, "ì„œê¸¸ë™", "ë§ˆì¼€íŒ…"));
-		emplist.add(new Emp(4, "ì´ê¸¸ë™", "íšŒê³„"));
+		emplist.add(new Emp(1, "È«±æµ¿", "ÀÎ»ç"));
+		emplist.add(new Emp(2, "±è±æµ¿", "IT"));
+		emplist.add(new Emp(3, "¼­±æµ¿", "¸¶ÄÉÆÃ"));
+		emplist.add(new Emp(4, "ÀÌ±æµ¿", "È¸°è"));
 		
 		Collections.sort(emplist, (Emp o1, Emp o2) -> 
 			 	o1.getDept().compareTo(o2.getDept())
